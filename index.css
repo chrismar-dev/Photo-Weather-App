@@ -37,12 +37,36 @@ body {
   justify-content: center;
 }
 
+.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.7em;
+  border-radius: 50px;
+  background: #1111;
+  color: white;
+  font-family: inherit;
+  font-size: 120%;
+  transition: 0.2s ease-in-out;
+  width: calc(100% - 100px);
+}
+
+.search-bar::placeholder {
+  color: white;
+}
+
 .search-button {
   margin: 0.5em;
   border-radius: 50%;
   border: none;
-  height: 2.5em;
-  width: 2.5em;
+  height: 46px;
+  width: 46px;
+  background: #1111;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.search-button:hover {
+  background-color: #000000d0;
 }
 
 .image {
@@ -69,7 +93,8 @@ body {
 
 .temp {
   text-align: center;
-  font-size: 60px
+  font-size: 60px;
+  margin-top: 0px;
 }
 
 .under {
