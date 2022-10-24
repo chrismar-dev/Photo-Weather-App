@@ -1,0 +1,22 @@
+div {
+  display: block;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #222;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.card {
+  background: #eaeaea;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1em;
+}
