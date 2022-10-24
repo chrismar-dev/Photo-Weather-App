@@ -8,15 +8,59 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background: #222;
+  background: linear-gradient(#e66465, #9198e5); 
   font-family: 'Work Sans', sans-serif;
-}
+  background-repeat: no-repeat;
+  background-size: 100% 100%;  
+} 
 
 .card {
-  background: #eaeaea;
-  padding: 2em;
+  background: #111110d0;
+  color: white;
+  padding: 3em;
   border-radius: 30px;
   width: 100%;
   max-width: 420px;
   margin: 1em;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 2.5em;
+  width: 2.5em;
+}
+
+.image {
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+  
+}
+
+.weather { 
+  display: inline;
+}
+
+.under {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.city {
+  text-align: center;
+  font-size: 30px;
+}
+
+.temp {
+  text-align: center;
+  font-size: 60px
 }
