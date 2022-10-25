@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <script src="index.js"></script>
+  <script src="index.js" defer></script>
   <link rel="stylesheet" href="index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,20 +17,24 @@
       <div class="search">
         <input class="search-bar" placeholder="Enter city name" type="text" class="search-bar">
         <button class="search-button">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <circle cx="10" cy="10" r="7" />
             <line x1="21" y1="21" x2="15" y2="15" />
+          </svg>
           </svg>
         </button>
       </div>
       <div class="weather">  
           <h2 class="city">City</h2>
-          <h1 class="temp">67°</h1>
-        <img src="" alt="" class="icon"  />
+          <h1 class="temp">00°</h1>
+          
+          <div class="icon-desc">
+            <img src="" alt="" class="icon" />
+            <div class="description">Description</div>
+          </div>
 
         <div class="under">
-          <div class="description">Description</div>
           <div class="humidity">Humidity</div>
           <div class="wind">Wind</div>
         </div>

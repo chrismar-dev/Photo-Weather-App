@@ -94,9 +94,22 @@ body {
 .temp {
   text-align: center;
   font-size: 60px;
-  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-.under {
-  font-size: 20px;
+.description {
+  font-size: 1.5em;
+}
+
+.icon-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.icon{
+  width: auto;
+  height: 80px;
 }
