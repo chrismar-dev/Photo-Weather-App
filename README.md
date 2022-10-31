@@ -1,4 +1,4 @@
-# Weather-API
+# photo-weather-app
 
 This is a Weather App built with HTML, CSS, and JavaScript. The weather API used is OpenWeather.
 
